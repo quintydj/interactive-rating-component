@@ -1,0 +1,100 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+article { 
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+@media (min-width: 1000px) {
+    article {
+        margin-top: 14%;
+    }
+}
+
+
+.doos {
+    background-color: hsl(213, 19%, 18%);
+    width: 290px;
+    padding: 28px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+}
+
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+}
+
+p { 
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+}
+
+.cijfers {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.button1 {
+    background-color: hsl(210, 13%, 24%);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(217, 12%, 63%);
+    font-weight: bold;
+    font-size: 15px;
+    transition-duration: 0.5s;
+    margin-bottom: 20px;
+}
+
+.button1:hover {
+    background-color: hsl(205, 12%, 41%);
+}
+
+.button1:focus {
+    background-color: hsl(25, 97%, 53%);
+}
+
+.buttonSubmit {
+    background-color: hsl(25, 97%, 53%);
+    width: 300px;
+    border-radius: 30px;
+    padding: 15px;
+    border: none;
+    font-family: 'overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-decoration: none;
+    display: table-cell;
+    text-align: center;
+}
+
+.buttonSubmit:hover {
+    background-color: hsl(25, 87%, 47%);
+}
+
+.buttonSubmit:focus {
+    background-color: hsl(25, 87%, 47%);
+}
+
+.plaatje {
+    display: flex;
+    justify-content: center;
+}
+
+.tekst2 {
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+}
