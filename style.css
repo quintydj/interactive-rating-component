@@ -99,6 +99,17 @@ p {
     font-family: 'Overpass', sans-serif;
 }
 
-  /* .test {
+.ratingTekst {
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(25, 88%, 62%);
+    background-color: hsl(218, 19%, 28%);
+    border-radius: 25px;
+    width: 180px;
+    padding: 5px;
+    margin-left: 50px;
+}
+
+  .verstopt {
     display: none;
-} */
+}
